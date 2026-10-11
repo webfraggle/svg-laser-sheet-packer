@@ -1,0 +1,9 @@
+# Eigene Konstruktionsdateien / Exporte
+svg-files/
+*.svg
+!test-svgs/*.svg
+
+# System / temporär
+.DS_Store
+.tmp-test/
+node_modules/

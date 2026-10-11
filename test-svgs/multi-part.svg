@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70mm" height="30mm" viewBox="0 0 70 30">
+  <!-- zwei getrennte Teile mit Lücke dazwischen -->
+  <ellipse cx="14" cy="15" rx="13" ry="14" fill="#2c3e50"/>
+  <path d="M40,4 C52,-2 70,6 68,16 C66,28 48,30 42,24 C36,18 30,9 40,4 Z" fill="#2c3e50"/>
+</svg>

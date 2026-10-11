@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="60mm" height="40mm" viewBox="0 0 60 40">
+  <!-- U-Form, Öffnung nach rechts: 60 breit, 40 hoch, Wandstärke 10 -->
+  <path d="M0,0 H60 V10 H10 V30 H60 V40 H0 Z" fill="#27ae60"/>
+</svg>

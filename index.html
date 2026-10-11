@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SVG Best Space</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>SVG Best Space</h1>
+    <p class="sub">Gleich viele Kopien jedes SVGs möglichst dicht auf einer Fläche anordnen – alles lokal im Browser.</p>
+  </header>
+
+  <main>
+    <section class="panel" id="panel-upload">
+      <h2>1. SVGs</h2>
+      <label id="dropzone" class="dropzone">
+        <input type="file" id="file-input" accept=".svg,image/svg+xml" multiple hidden>
+        <span>SVG-Dateien hierher ziehen oder <u>auswählen</u></span>
+      </label>
+      <ul id="source-list" class="source-list"></ul>
+    </section>
+
+    <section class="panel" id="panel-params">
+      <h2>2. Parameter</h2>
+      <div class="grid">
+        <label>Breite (mm)<input type="number" id="p-width" value="600" min="1" step="any"></label>
+        <label>Höhe (mm)<input type="number" id="p-height" value="400" min="1" step="any"></label>
+        <label>Abstand zwischen Formen (mm)<input type="number" id="p-gap" value="2" min="0" step="any"></label>
+        <label>Randabstand (mm)<input type="number" id="p-margin" value="2" min="0" step="any"></label>
+        <label class="check"><input type="checkbox" id="p-rotate" checked> Drehen erlauben</label>
+        <label>Schrittweite (°)<input type="number" id="p-step" value="90" min="1" max="360" step="any"></label>
+        <label>Auflösung (mm/Zelle)<input type="number" id="p-cell" value="0.5" min="0.05" step="any"></label>
+        <label>Zeitbudget (s)<input type="number" id="p-time" value="10" min="1" step="any"></label>
+      </div>
+      <div class="actions">
+        <button id="btn-run" class="primary">Berechnen</button>
+        <button id="btn-cancel" disabled>Abbrechen</button>
+        <span id="status" class="status"></span>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-result">
+      <h2>3. Ergebnis</h2>
+      <div id="stats" class="stats"></div>
+      <div id="warning" class="warning" hidden></div>
+      <div class="actions">
+        <label class="check" title="Achtung: Laser-Software kann den Rahmen als zu bearbeitendes Element übernehmen."><input type="checkbox" id="p-frame"> Rahmen im Export (blau, wird evtl. mitgelasert)</label>
+        <button id="btn-download" class="primary" disabled>SVG herunterladen</button>
+      </div>
+      <div id="preview" class="preview"></div>
+      <details id="debug">
+        <summary>Rastermasken anzeigen (Debug)</summary>
+        <div id="debug-masks" class="debug-masks"></div>
+      </details>
+    </section>
+  </main>
+
+  <script src="js/units.js"></script>
+  <script src="js/svg-import.js"></script>
+  <script src="js/raster.js"></script>
+  <script src="js/nest-core.js"></script>
+  <script src="js/worker-host.js"></script>
+  <script src="js/export.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

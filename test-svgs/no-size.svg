@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+  <!-- keine width/height: 100 x 60 user units = px -> 26.46mm x 15.88mm -->
+  <rect x="0" y="0" width="100" height="60" rx="12" fill="#16a085"/>
+</svg>

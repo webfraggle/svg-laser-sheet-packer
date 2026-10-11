@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2in" height="1in" viewBox="0 0 200 100">
+  <!-- 2in x 1in = 50.8mm x 25.4mm, Blob aus kubischen Beziers -->
+  <path fill="#d35400"
+        d="M20,50 C10,15 60,2 100,12 C140,22 195,5 192,45 C189,85 150,98 105,88 C60,78 30,90 20,50 Z"/>
+</svg>
