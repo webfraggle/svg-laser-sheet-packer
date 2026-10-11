@@ -98,3 +98,8 @@ button:disabled { opacity: .5; cursor: default; }
 details { margin-top: 14px; }
 .debug-masks { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
 .debug-masks canvas { image-rendering: pixelated; border: 1px solid var(--border); max-width: 200px; }
+
+.intro { max-width: 820px; margin-top: 10px; }
+.intro p { margin: 6px 0; }
+.intro .muted { color: var(--muted); font-size: 14px; }
+a { color: var(--accent); }
