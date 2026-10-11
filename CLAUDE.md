@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-SVG-Best-Space: a purely local web page (no backend, no build step, no external dependencies) that nests uploaded SVGs onto a rectangular sheet. The user uploads n SVGs and enters a sheet size in mm; the page places the **same number k of copies of every SVG** and maximizes k. Filled areas must not overlap (bounding boxes may) and must keep a configurable minimum gap; a separate border margin applies. Rotation is either off or in user-defined degree steps (no mirroring). SVGs keep their original physical size. The output is a preview plus an SVG download in mm. UI language is German. See `PLAN.md` for the original design rationale.
+SVG Laser Sheet Packer: a purely local web page (no backend, no build step, no external dependencies) that nests uploaded SVGs onto a rectangular sheet. The user uploads n SVGs and enters a sheet size in mm; the page places the **same number k of copies of every SVG** and maximizes k. Filled areas must not overlap (bounding boxes may) and must keep a configurable minimum gap; a separate border margin applies. Rotation is either off or in user-defined degree steps (no mirroring). SVGs keep their original physical size. The output is a preview plus an SVG download in mm. UI language is German. See `PLAN.md` for the original design rationale.
 
 ## Hard constraint: must run from `file://`
 

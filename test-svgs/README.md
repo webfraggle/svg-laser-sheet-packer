@@ -1,4 +1,4 @@
-# Test-SVGs für SVG Best Space
+# Test-SVGs für SVG Laser Sheet Packer
 
 Manuelle Testdateien für das Nesting-Tool. Alle Formen gefüllt, transparenter Hintergrund.
 

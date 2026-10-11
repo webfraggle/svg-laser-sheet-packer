@@ -1,4 +1,4 @@
-# SVG-Best-Space – Implementierungsplan
+# SVG Laser Sheet Packer – Implementierungsplan
 
 > **Update:** Die Vorgabe „eine einzige Datei“ wurde aufgehoben. Mehrere Dateien sind erlaubt, solange alles über `file://` funktioniert. Die aktuelle Dateistruktur und die Schnittstellen beschreibt `CLAUDE.md`.
 
