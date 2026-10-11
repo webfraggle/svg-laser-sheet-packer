@@ -2,7 +2,9 @@
 
 Ordnet beliebige SVG-Formen möglichst dicht auf einer rechteckigen Fläche an (Nesting). Typische Anwendungen sind Laserschneiden, Plotten und CNC. Von **jedem** hochgeladenen SVG wird **dieselbe Anzahl** an Kopien platziert, und diese Anzahl wird maximiert.
 
-Alles läuft lokal im Browser: kein Server, keine Installation, kein Build. `index.html` per Doppelklick öffnen, fertig.
+**▶ Online ausprobieren: https://webfraggle.github.io/svg-nesting-for-laser-cutting/**
+
+Alles läuft lokal im Browser: kein Server, keine Installation, kein Build. Auch in der Online-Version verlassen deine SVGs den Rechner nicht, die ganze Berechnung passiert im Browser. Offline geht es genauso: Repo herunterladen und `index.html` per Doppelklick öffnen.
 
 ## Funktionen
 
@@ -18,7 +20,7 @@ Alles läuft lokal im Browser: kein Server, keine Installation, kein Build. `ind
 
 ## Bedienung
 
-1. `index.html` im Browser öffnen (Chrome, Firefox, Safari).
+1. [Online-Version](https://webfraggle.github.io/svg-nesting-for-laser-cutting/) oder die lokale `index.html` im Browser öffnen (Chrome, Firefox, Safari).
 2. SVG-Dateien hineinziehen oder auswählen.
 3. Breite und Höhe der Fläche, Abstand, Randabstand und Rotation einstellen.
 4. **Berechnen** klicken und das Ergebnis mit **SVG herunterladen** speichern.
